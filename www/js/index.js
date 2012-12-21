@@ -27,6 +27,12 @@ var app = {
         // This is an event handler function, which means the scope is the event.
         // So, we must explicitly called `app.report()` instead of `this.report()`.
         app.report('deviceready');
+        //Here i'm calling the notify function from an event handler, if i refer to this
+        // i'm actually referring to the event an not to the app object.
+        app.notify('The device is ready!');
+    },
+    notify: function(message){
+    	navigator.notification.alert(message);
     },
     report: function(id) {
         // Report the event in the console
