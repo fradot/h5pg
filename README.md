@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hello World PhoneGap Application
 
 > A Hello World application built with PhoneGap
@@ -27,3 +28,9 @@ For issues with __the PhoneGap Build integration__, please submit
 an issue or pull request to this project.
 
 [1]: http://github.com/apache/incubator-cordova-app-hello-world
+=======
+h5pg
+====
+
+HTML5 - Phonegap start template
+>>>>>>> 409503347ba977e1e3c8f0191595c543a1916346
