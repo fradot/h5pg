@@ -22,11 +22,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>h5pg</title>
     </head>
     <body>
     	
+    	<!-- 
         <div class="app">
             <h1>WoW</h1>
             <div id="deviceready">
@@ -34,18 +36,38 @@
                 <p class="status complete blink hide">Device is Ready</p>
             </div>
         </div>
+       -->
         
+		<div data-role="page">
+
+			<div data-role="header">
+				<h1>Single page</h1>
+			</div><!-- /header -->
+		
+			<div data-role="content">	
+				<p>This is a single page boilerplate template that you can copy to build your first jQuery Mobile page. Each link or form from here will pull a new page in via Ajax to support the animated page transitions.</p>		
+				<p>Just view the source and copy the code to get started. All the CSS and JS is linked to the jQuery CDN versions so this is super easy to set up. Remember to include a meta viewport tag in the head to set the zoom level.</p>
+				<p>This template is standard HTML document with a single "page" container inside, unlike a <a href="multipage-template.html" data-ajax="false">multi-page template</a> that has multiple pages within it. We strongly recommend building your site or app as a series of separate pages like this because it's cleaner, more lightweight and works better without JavaScript.</p>
+			</div><!-- /content -->
+			
+			<div data-role="footer">
+				<h4>Footer content</h4>
+			</div><!-- /footer -->
+			
+		</div><!-- /page -->
+
         <!-- phonegap APIs -->
         <script type="text/javascript" src="phonegap.js"></script>
         <!-- jQuery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-        <script src="//code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery.mobile-1.2.0.min.js"><\/script>')</script>
-        <!-- main js -->
+        <!-- Main js -->
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
+        <!-- jQuery Mobile -->
+        <script src="//code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery.mobile-1.2.0.min.js"><\/script>')</script>
     </body>
 </html>
