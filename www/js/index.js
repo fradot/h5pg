@@ -19,9 +19,6 @@
 
 var app = {
     initialize: function() {
-        this.bind();
-    },
-    bind: function() {
     	
     	var deviceReadyDeferred = $.Deferred();
     	var jqmReadyDeferred = $.Deferred();
@@ -35,6 +32,7 @@ var app = {
 		});
 		
 		$.when(deviceReadyDeferred, jqmReadyDeferred).then(this.deviceready);
+		
     },
     deviceready: function() {
         // This is an event handler function, which means the scope is the event.
@@ -43,6 +41,6 @@ var app = {
         
     },
     report: function(message) {
-    	navigator.notification.alert(message);
+    	//navigator.notification.alert(message);
     }
 };

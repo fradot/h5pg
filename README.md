@@ -1,6 +1,7 @@
 # Hello World PhoneGap Application
 
-> A Hello World application built with PhoneGap
+> Phonegap and jQuery Mobile multipage template based on phonegap-start.
+It can be used with Phonegap Build.
 
 ## PhoneGap Build
 

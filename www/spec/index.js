@@ -43,25 +43,4 @@ describe('app', function() {
         });
     });
 
-    describe('report', function() {
-        beforeEach(function() {
-            var el = document.getElementById('stage');
-            el.innerHTML = ['<div id="deviceready">',
-                            '    <p class="status pending">Pending</p>',
-                            '    <p class="status complete hide">Complete</p>',
-                            '</div>'].join('\n');
-        });
-
-        it('should show the completion state', function() {
-            app.report('deviceready');
-            var el = document.querySelector('#deviceready .complete:not(.hide)');
-            expect(el).toBeTruthy();
-        });
-
-        it('should hide the pending state', function() {
-            app.report('deviceready');
-            var el = document.querySelector('#deviceready .pending.hide');
-            expect(el).toBeTruthy();
-        });
-    });
 });
