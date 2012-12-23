@@ -16,9 +16,6 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-afterEach(function() {
-    document.getElementById('stage').innerHTML = '';
-});
 
 var helper = {
     trigger: function(obj, name) {

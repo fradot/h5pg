@@ -23,6 +23,7 @@ describe('app', function() {
                 spyOn(app, 'deviceready');
                 app.initialize();
                 helper.trigger(window.document, 'deviceready');
+                helper.trigger(window.document, 'mobileinit');
             });
 
             waitsFor(function() {
