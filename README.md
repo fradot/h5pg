@@ -17,7 +17,7 @@ Create a new app with the following repository:
 
     /www/spec.html
 
-## Issues and Pull Requests
+## Note
 
 This application is a modification of the [phonegap-start][1] project.
 
