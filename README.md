@@ -1,13 +1,13 @@
-# Hello World PhoneGap Application
+# Hello World PhoneGap and jQuery Mobile Application
 
-> Phonegap and jQuery Mobile multipage template based on phonegap-start.
-It can be used with Phonegap Build.
+> This application was originally forked from phonegap-start and is based on it.
+It includes jQuery Mobile and a multipage template.
 
 ## PhoneGap Build
 
 Create a new app with the following repository:
 
-    https://github.com/phonegap/phonegap-start.git
+    https://github.com/phonegap/h5pg.git
 
 ## Run Application
 
@@ -19,12 +19,6 @@ Create a new app with the following repository:
 
 ## Issues and Pull Requests
 
-This application is a modification of the [Apache Cordova Hello World][1].
+This application is a modification of the [phonegap-start][1] project.
 
-For issues with __the application__, please submit an issue or pull request
-to the [Apache Cordova source code][1].
-
-For issues with __the PhoneGap Build integration__, please submit
-an issue or pull request to this project.
-
-[1]: http://github.com/apache/incubator-cordova-app-hello-world
+[1]: http://github.com/phonegap/phonegap-start
