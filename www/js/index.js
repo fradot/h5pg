@@ -29,6 +29,7 @@ var app = {
         
         $(document).on("mobileinit", function () {
         	//allowing cross domain requests
+        	$.support.cors = true;
         	$.mobile.allowCrossDomainPages = true;
   			jqmReadyDeferred.resolve();
 		});
