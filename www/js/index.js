@@ -28,6 +28,8 @@ var app = {
         }, false);
         
         $(document).on("mobileinit", function () {
+        	//allowing cross domain requests
+        	$.mobile.allowCrossDomainPages = true;
   			jqmReadyDeferred.resolve();
 		});
 		
