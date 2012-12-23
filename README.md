@@ -1,7 +1,7 @@
 # Hello World PhoneGap and jQuery Mobile Application
 
 > This application was originally forked from phonegap-start and is based on it.
-It includes jQuery Mobile and a multipage template.
+It includes jQuery Mobile and a multipage template. It can be used directly with Phonegap Build.
 
 ## PhoneGap Build
 
