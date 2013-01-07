@@ -7,7 +7,7 @@ It includes jQuery Mobile and a multipage template. It can be used directly with
 
 Create a new app with the following repository:
 
-    https://github.com/phonegap/h5pg.git
+    https://github.com/fradot/h5pg.git
 
 ## Run Application
 
