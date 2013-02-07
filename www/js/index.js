@@ -44,6 +44,7 @@ var app = {
         
     },
     report: function(message) {
+    	console.log(message);
     	//navigator.notification.alert(message);
     }
 };
