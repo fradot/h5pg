@@ -1,3 +1,5 @@
+# This repo is not maintained
+
 # Hello World PhoneGap and jQuery Mobile Application
 
 > This application was originally forked from phonegap-start.
